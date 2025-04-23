@@ -92,7 +92,7 @@ function NovoEvento() {
         alert('Evento cadastrado com sucesso!');
         navigate('/');
       })
-      .catch(() => alert('Erro ao cadastrar evento.'));
+      .catch(() => alert('Erro ao cadastrar evento!'));
   }
 
   return (
